@@ -1,9 +1,9 @@
-.title{
-    color: antiquewhite;
+h2{
+    color: rgb(239, 99, 99);
 }
 .subtitle{
-    color: aqua;
+    color: aqua
 }
-#contact-us{
-    color: rgb(41, 218, 41);
+#subtitle{
+    color: blueviolet
 }
