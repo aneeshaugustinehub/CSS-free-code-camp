@@ -2,10 +2,10 @@ h2:hover {
     color: rgb(51, 255, 0);
 }
 .subtitle{
-    color: aqua
+    color: aqua;
 }
 #subtitle{
-    color: blueviolet
+    color: blueviolet;
 }
 /* li:first-child{
     color: blue;
@@ -31,14 +31,14 @@ td:only-child{
 } */
 
 h2 + a {
-    color:tomato
+    color:tomato;
 }
 textarea ~ button{
     color: purple;
     background-color: aqua;
 }
 ul > li{
-    color: rgb(0, 0, 255)
+    color: rgb(0, 0, 255);
 }
 /* ul li{
     color: green;
@@ -49,3 +49,4 @@ img[src^="/img/"] {
 h2[class~=sub2]{
     background: green;
 }
+
