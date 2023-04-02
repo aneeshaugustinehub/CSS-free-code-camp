@@ -1,9 +1,30 @@
-h2{
-    color: rgb(239, 99, 99);
+h2:hover {
+    color: rgb(51, 255, 0);
 }
 .subtitle{
     color: aqua
 }
 #subtitle{
     color: blueviolet
+}
+li:first-child{
+    color: blue;
+}
+li:last-child{
+    color: rgb(255, 128, 0);
+}
+li:nth-child(2){
+    color: rgb(255, 0, 191);
+}
+li:only-child{
+    color: purple;
+}
+td:only-child{
+    color: purple;
+}
+#googlelink:link{
+    color: red;
+}
+#googlelink:visited{
+    color: blueviolet;
 }
