@@ -7,24 +7,39 @@ h2:hover {
 #subtitle{
     color: blueviolet
 }
-li:first-child{
+/* li:first-child{
     color: blue;
-}
-li:last-child{
+} */
+/* li:last-child{
     color: rgb(255, 128, 0);
-}
+} */
 li:nth-child(2){
     color: rgb(255, 0, 191);
 }
-li:only-child{
+/* li:only-child{
     color: purple;
-}
+} */
+
 td:only-child{
     color: purple;
 }
-#googlelink:link{
+/* #googlelink:link{
     color: red;
 }
 #googlelink:visited{
     color: blueviolet;
+} */
+
+h2 + a {
+    color:tomato
 }
+textarea ~ button{
+    color: purple;
+    background-color: aqua;
+}
+ul > li{
+    color: rgb(0, 0, 255)
+}
+/* ul li{
+    color: green;
+} */
