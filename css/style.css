@@ -21,7 +21,7 @@ li:nth-child(2){
 } */
 
 td:only-child{
-    color: purple;
+    color: rgb(0, 0, 255);
 }
 /* #googlelink:link{
     color: red;
