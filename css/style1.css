@@ -1,12 +1,21 @@
 body{
-    background: rgb(205, 231, 252);
+    background: linear-gradient(to bottom, rgb(205, 231, 252), rgba(205, 231, 252, 0.2));
 
 /*  background-image: url(/img/img-1.jpg);
  */
 }
+
 #title{
     color: rgb(186, 133, 9);
 } 
 .subtitle{
     color: rgb(201, 154, 44);
+}
+#service-images{
+    height: 400px;
+    width: 70%;
+/*     background: url("/img/img-2.jpg");
+ */    background:radial-gradient(circle, red 20%,blue 40%,green 60%)
+/*     background-size: cover /* contain */ /* 50px 100px */;
+ */
 }
