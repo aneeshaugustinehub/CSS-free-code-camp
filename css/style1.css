@@ -1,0 +1,12 @@
+body{
+    background: rgb(205, 231, 252);
+
+/*  background-image: url(/img/img-1.jpg);
+ */
+}
+#title{
+    color: rgb(186, 133, 9);
+} 
+.subtitle{
+    color: rgb(201, 154, 44);
+}
