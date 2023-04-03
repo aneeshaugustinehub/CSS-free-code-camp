@@ -4,7 +4,8 @@ body{
  */
 text-transform: capitalize;
 text-align: justify;
-
+font-size: 1.1em;
+font-weight: 400;
 }
 
 #title{
@@ -26,3 +27,6 @@ text-align: justify;
     text-decoration: line-through;
     text-decoration: overline;
  */}
+ .ilalis{
+    font-style: italic;
+ }
