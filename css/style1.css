@@ -1,6 +1,6 @@
 body{
     background: linear-gradient(to bottom, rgb(205, 231, 252), rgba(205, 231, 252, 0.2));
-
+    font-size: ;
 /*  background-image: url(/img/img-1.jpg);
  */
 }
@@ -13,9 +13,8 @@ body{
 }
 #service-images{
     height: 400px;
-    width: 70%;
+    width: 70vw;
 /*     background: url("/img/img-2.jpg");
  */    background:radial-gradient(circle, red 20%,blue 40%,green 60%)
-/*     background-size: cover /* contain */ /* 50px 100px */;
- */
+/*     background-size: cover /* contain */ /* 50px 100px; */
 }
