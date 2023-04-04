@@ -45,3 +45,22 @@ body{
 .table{
 display: inline-block;
 }
+.container{
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+/*     flex-wrap: wrap;
+ */    justify-content: center;
+    align-items: center;
+}
+.container-item{
+    background: rebeccapurple;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    width: 70px;
+    line-height: 50px;
+    margin: 10px;
+}

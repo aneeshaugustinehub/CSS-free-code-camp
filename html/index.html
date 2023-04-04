@@ -13,7 +13,7 @@
 <body>
     <h1 id="title">My website</h1>
 
-    <p class="para-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sunt non perspiciatis, rerum dolorem id <span class="ilalis">aliquam praesentium nobis excepturi officia quibusdam adipisci</span> esse, odit mollitia maxime debitis deserunt reiciendis illum.</p>
+    <p class="para-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sunt non perspiciatis, rerum dolorem id <span class="ilalis">aliquam praesentium nobis excepturi officia quibusdam adipisci</span> esse, <p>block level element</p> debitis deserunt reiciendis illum.</p>
 
     <h2 class="subtitle sub2">about me</h2>
 
@@ -40,7 +40,7 @@
     <h2 class="subtitle" id="subtitle";>services</h2>
     <a href="https://www.google.com" class="link">google</a>
 
-    <table border="1">
+    <table border="1" class="table">
         <thead>
             <tr>
                 <td>Lorem</td>
@@ -61,6 +61,14 @@
     </table>
     
     <div id="service-images"></div>
+    <div class="container">
+        <div class="container-item" style="order: 1; flex: 1 1 100px; align-self: flex-start;">a</div>
+        <div class="container-item" style="order: 3; flex: 1 1 100px; align-self: flex-end;">b</div>
+        <div class="container-item" style="order: 2; flex: 5 1 100px; align-self: center;">c</div>
+        <div class="container-item" style="order: 5; flex: 1 1 100px; align-self: flex-start;">d</div>
+        <div class="container-item" style="order: 4; flex: 1 1 100px; align-self: center;">e</div>
+
+    </div>
 
     <h2 id="contact-us">contact us</h2>
     <form action="">
