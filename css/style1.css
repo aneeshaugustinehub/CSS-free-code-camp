@@ -67,9 +67,15 @@ display: inline-block;
 .grid-container{
     background-color: aliceblue;
     margin: 10px;
-    height: 300px;
+    height: 500px;
 
     display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows:auto auto;
+/*     gap: 300px 150px;
+    justify-content: space-around;
+    align-content: space-between;
+ */
 }
 .grid-item{
     color: black;
@@ -78,4 +84,37 @@ display: inline-block;
     width: 70px;
     line-height: 40px;
     margin: 10px;
+}
+.submit-btn{
+    margin: 20px 10px;
+    padding: 10px 15px;
+    border: none;
+    text-decoration: none;
+    font-family: lato,sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background: rgb(66, 135, 255);
+/*     transform: matrix(1,0.45,0.45,1,100,50);
+ *//*     transform: skewx(-45deg);
+ */ /*    transform: rotate(-45deg); */
+/*     transform: scale(2);
+ */    -webkit-transform: all 200ms ease; 
+    -moz-transform: all 200ms ease;
+    -o-transition: all 200ms ease;
+}
+
+.submit-btn:hover{
+    background: rgb(142, 204, 255);
+    padding: 11px 16px;
+    
+}
+/* @keyframes red-to-black{
+    from {background: red;}
+    to {background: black;}
+} */
+@keyframes red-to-black{
+    0%{background: red; transform: translate(0px,0px);}
+    50%{background: yellow; transform: translate(10px,10px);}
+    100%{background: black; transform: translate(20px,20px);}
 }
