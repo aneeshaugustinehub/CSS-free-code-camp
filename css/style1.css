@@ -113,8 +113,25 @@ display: inline-block;
     from {background: red;}
     to {background: black;}
 } */
+#about-me{
+/*     animation-name: red-to-black;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse; */
+    /* short vertion */
+    animation: red-to-black .5s linear .1s infinite alternate-reverse;
+}
+
 @keyframes red-to-black{
-    0%{background: red; transform: translate(0px,0px);}
-    50%{background: yellow; transform: translate(10px,10px);}
-    100%{background: black; transform: translate(20px,20px);}
+    0%{
+        background: red; transform:
+        translate(0px,0px);}
+    50%{
+        background: yellow;
+        transform: translate(10px,10px);}
+    100%{
+        background: black; 
+        transform: translate(20px,20px);}
 }
